@@ -1,5 +1,9 @@
 # tier-matrix
 
+> Verification component of the local-first suite: mocks every on-device AI fallback tier and
+> re-tests it. See the suite core ([local-first-llm](https://github.com/NagaYu/local-first-llm))
+> for the routing policy it verifies.
+
 [![CI](https://github.com/NagaYu/tier-matrix/actions/workflows/ci.yml/badge.svg)](https://github.com/NagaYu/tier-matrix/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/tier-matrix.svg)](https://www.npmjs.com/package/tier-matrix)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
@@ -202,6 +206,13 @@ different layer, not a competing tool.
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## Local-first suite
+
+This repository is the verification component of the local-first suite.
+
+- Suite core (routing policy): [local-first-llm](https://github.com/NagaYu/local-first-llm)
+- Full list of suite repositories and their roles: [Suite map](https://github.com/NagaYu/local-first-llm#suite-map)
 
 ## License
 
